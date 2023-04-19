@@ -1,0 +1,64 @@
+body {
+    margin: auto;
+    width: 355px;
+    height: 635px;
+    border: 5px solid red;
+    border-radius: 25px;
+    transform: scale(1.5); /*Kasvatetaan koko sisällön koko 1,5-kertaiseksi*/
+    transform-origin: top;
+}
+
+#container {
+    width: 355px;
+    height: 635px;
+    background-color: #b8c59d;
+    border-radius: 20px;
+}
+
+#header {
+    width: 355px;
+    height: 100px;
+    text-align: center;
+}
+
+#header h2 {
+    margin: 0;
+    color: rgb(243, 243, 95);
+    text-shadow: 2px 2px 3px red;
+}
+
+#header input {
+    width: 250px;
+    height: 25px;
+    margin-top: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#header button {
+    width: 70px;
+    height: 30px;
+    margin: 15px 50px 0px 50px;
+    border-radius: 10px;
+}
+
+#memo {
+    margin-top: 20px;
+    width: 340px;
+    height: 480px;
+    padding: 15px 5px 15px 5px;
+    border: 2.5px solid black;
+    border-radius: 20px;
+    background-color: rgb(243, 243, 95);
+    text-align: center;
+}
+
+p {
+    width: 300px;
+    height: 30px;
+    box-shadow: 4px 4px 5px #fff;
+    border-radius: 20px;
+    margin: 5px 15px 5px 15px;
+    background-color: rgb(201, 236, 172);
+    color: black;
+}
